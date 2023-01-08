@@ -6,28 +6,23 @@
 ## ディレクトリ構成
 ```
 .
-├── brush_less_motor
+├── brush_less_motor -------------- ブラシレスモータの動作確認 / PS3のコントローラで動かす用
 |   ├── ESC ----------------------- ブラシレスモータに付いてる四角いやつを使うときはこれが必要
-|   |   ├── esc.cpp
-|   |   └── esc.h
+|   |   └── .
 |   ├── README.md
 |   ├── stand_alone.cpp ----------- とりあえずブラシレスモータを動かしてみるプログラム(C++)
 |   └── with_controller.cpp ------- ブラシレスモータをコントローラーで動かすためのプログラム(C++)
-├── dc_motor
-|   ├── main.cpp ------------------ DCモータの動作確認用プログラム(C++)
-|   └── README.md
-├── encoder_motor
-|   ├── RotaryEncoder.cpp --------- エンコーダ付きのモータ回すためのプログラム(C++)
-|   └── RotaryEncoder.h
+├── dc_motor ---------------------- DCモータの動作確認用
+|   └── .
+├── encoder_motor ----------------- エンコーダ付きのモータ回す用
+|   └── .
 ├── self_position_estimation ------ 自己位置推定
 |   ├── odometry.cpp -------------- オドメトリ手法(C++)
 |   └── README.md
-├── servo_motor
-|   ├── main.cpp ------------------ サーボモータの動作確認用プログラム(C++)
-|   └── README.md
-├── ultra_sonic_sensor
-|   ├── measure_distance.py ------- 超音波センサで距離を測るためのプログラム(Python)
-|   └── README.md
+├── servo_motor ------------------- サーボモータの動作確認用
+|   └── .
+├── ultra_sonic_sensor ------------ 超音波センサで距離を測る用
+|   └── .
 └── README.md --------------------- このファイル
 ```
 
