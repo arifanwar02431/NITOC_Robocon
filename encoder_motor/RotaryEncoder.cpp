@@ -1,6 +1,8 @@
+#include "mbed.h"
 #include "RotaryEncoder.h"
 
-RotaryEncoder::RotaryEncoder(PinName PIN_A, PinName PIN_B) : _PIN_A(PIN_A), _PIN_B(PIN_B) {
+RotaryEncoder::RotaryEncoder(PinName PIN_A, PinName PIN_B) : _PIN_A(PIN_A), _PIN_B(PIN_B)
+{
     count = 0;
     pos = 0;
 
@@ -13,8 +15,9 @@ RotaryEncoder::RotaryEncoder(PinName PIN_A, PinName PIN_B) : _PIN_A(PIN_A), _PIN
     _PIN_B.fall(this, &RotaryEncoder::Proccessing);
 }
 
-// Processing part of encoder
-void RotaryEncoder::Proccessing() {
+//エンコーダの処理部分
+void RotaryEncoder::Proccessing(void)
+{
     unsigned char D = (!(_PIN_B.read()) << 1) + (!(_PIN_A.read()));
     unsigned char old_data = pos & 3;
     unsigned char new_data = (pos & 48) >> 4;
@@ -47,17 +50,20 @@ void RotaryEncoder::Proccessing() {
     }
 }
 
-// Reset encoder counts
-void RotaryEncoder::Reset() {
+//エンコーダのカウントのリセット
+void RotaryEncoder::Reset(void)
+{
     count = 0;
 }
 
-// Display of encoder counts
-int RotaryEncoder::Get_Count() {
+//エンコーダのカウントの表示
+int RotaryEncoder::Get_Count(void)
+{
     return (count);
 }
 
-// Circumference display
-double RotaryEncoder::Get_Circumference(int Diameter, int Resolution) {
+//円周の表示
+double RotaryEncoder::Get_Circumference(int Diameter, int Resolution)
+{
     return (Diameter * 3.14 * ((double)count / Resolution));
 }
