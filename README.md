@@ -16,6 +16,9 @@
 ├── dc_motor
 |   ├── main.cpp ------------------ DCモータの動作確認用プログラム(C++)
 |   └── README.md
+├── encoder_motor
+|   ├── RotaryEncoder.cpp --------- エンコーダ付きのモータ回すためのプログラム(C++)
+|   └── RotaryEncoder.h
 ├── self_position_estimation ------ 自己位置推定
 |   ├── odometry.cpp -------------- オドメトリ手法(C++)
 |   └── README.md
