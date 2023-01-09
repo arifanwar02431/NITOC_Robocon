@@ -1,4 +1,4 @@
-エンコーダ付きモータの制御
+# エンコーダ付きモータの制御
 
 - `RotaryEncoder.cpp`
 - `RotaryEncoder.h`  
