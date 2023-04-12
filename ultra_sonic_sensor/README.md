@@ -1,2 +1,3 @@
 # 超音波センサ
-raspi-4B上で動かしたやつ
+Python: raspi-4B上で動かしたやつ
+C++: STM32F446RE
