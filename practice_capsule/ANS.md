@@ -15,7 +15,11 @@
 ├── main.cpp
 └── mbed-os.lib
 ```
-プログラムは[step1](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
+
+**配線**
+
+
+プログラムは[step1.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
 
 ---
 
@@ -38,7 +42,11 @@
 ├── RotaryEncoder.cpp
 └── RotaryEncoder.h
 ```
-プログラムは[step2](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
+
+**配線**
+
+
+プログラムは[step2.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
 
 ---
@@ -62,5 +70,9 @@
 ├── RotaryEncoder.cpp
 └── RotaryEncoder.h
 ```
-プログラムは[step3](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
+
+**配線**
+
+
+プログラムは[step3.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
