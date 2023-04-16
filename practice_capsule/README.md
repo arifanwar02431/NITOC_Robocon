@@ -2,6 +2,7 @@
 ガチャ制御教材  
 
 ## 概要
+
 ### step1
 **PWM制御**  
 モータをボールが詰まらない速度で回転させる.
@@ -14,42 +15,11 @@
 **SW & Encoder制御応用**  
 スイッチを1回押すとボールが1個出るまで動くようにする.
 
-## 解答
+## 作成者
+Wassy | Ryoga Washizawa[github.com/wassy310]
+
+## その他
 stepごとにディレクトリは分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
 
-### step1
-**ディレクトリ構成**
-```
-.
-├── mbed-os
-|   └── .
-├── .mbed
-├── main.cpp
-└── mbed-os.lib
-```
-
-### step2
-**ディレクトリ構成**
-```
-.
-├── mbed-os
-|   └── .
-├── .mbed
-├── main.cpp
-├── mbed-os.lib
-├── RotaryEncoder.cpp
-└── RotaryEncoder.h
-```
-
-### step3
-**ディレクトリ構成**
-```
-.
-├── mbed-os
-|   └── .
-├── .mbed
-├── main.cpp
-├── mbed-os.lib
-├── RotaryEncoder.cpp
-└── RotaryEncoder.h
-```
+## 解答
+解答は[こちら](github.com/wassy310/practice_capsule)
