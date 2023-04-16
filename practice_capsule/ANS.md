@@ -1,4 +1,6 @@
 # 解答
+あくまで1例です  
+特にstep3などは多数の答えがあるので、困ったら制御の先輩や友人に訊きましょう
 
 ## step1
 ### 使うもの
@@ -81,4 +83,4 @@
 
 ### プログラム
 [step3.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
-`RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
+エンコーダを使う場合は, `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
