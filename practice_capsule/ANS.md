@@ -17,6 +17,8 @@
 ```
 プログラムは[step1](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
 
+---
+
 ### step2
 **使うもの**
 - DCモータ(ガチャガチャ本体に生えてるやつ)
@@ -38,6 +40,8 @@
 ```
 プログラムは[step2](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
+
+---
 
 ### step3
 **使うもの**
