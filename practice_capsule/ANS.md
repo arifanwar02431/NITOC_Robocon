@@ -1,12 +1,12 @@
 # 解答
 
 ## step1
-**使うもの**
+### 使うもの
 - DCモータ(ガチャガチャ本体に生えてるやつ)
 - Nucleo
 - リポ
 
-**ディレクトリ構成**
+### ディレクトリ構成
 ```
 .
 ├── mbed-os
@@ -16,22 +16,23 @@
 └── mbed-os.lib
 ```
 
-**配線**
+### 配線
 
 
-プログラムは[step1.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
+### プログラム
+[step1.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
 
 ---
 
 ## step2
-**使うもの**
+### 使うもの
 - DCモータ(ガチャガチャ本体に生えてるやつ)
 - ロータリエンコーダ(本体に付いてるやつ)
 - スイッチ(タクトスイッチ1個)
 - Nucleo
 - リポ
 
-**ディレクトリ構成**
+### ディレクトリ構成
 ```
 .
 ├── mbed-os
@@ -43,23 +44,24 @@
 └── RotaryEncoder.h
 ```
 
-**配線**
+### 配線
 
 
-プログラムは[step2.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
+### プログラム
+[step2.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
 
 ---
 
 ## step3
-**使うもの**
+### 使うもの
 - DCモータ(ガチャガチャ本体に生えてるやつ)
 - ロータリエンコーダ(本体に付いてるやつ)
 - スイッチ(タクトスイッチ1個, リミットスイッチ1個(リミットは本体に付いてるやつ))
 - Nucleo
 - リポ
 
-**ディレクトリ構成**
+### ディレクトリ構成
 ```
 .
 ├── mbed-os
@@ -71,8 +73,9 @@
 └── RotaryEncoder.h
 ```
 
-**配線**
+### 配線
 
 
-プログラムは[step3.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
+### プログラム
+[step3.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
