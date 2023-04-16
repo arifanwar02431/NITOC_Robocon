@@ -21,5 +21,8 @@
 ## その他
 ディレクトリはstepごとに分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
 
+## ヒント
+ヒントは[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/TIPS.md)
+
 ## 解答
 解答は[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/ANS.md)
