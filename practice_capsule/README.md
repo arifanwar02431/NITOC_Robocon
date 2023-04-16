@@ -16,6 +16,7 @@
 
 ## 解答
 stepごとにディレクトリは分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
+
 ### step1
 **ディレクトリ構成**
 ```
@@ -25,4 +26,30 @@ stepごとにディレクトリは分けて, プログラムファイル(step*.c
 ├── .mbed
 ├── main.cpp
 └── mbed-os.lib
+```
+
+### step2
+**ディレクトリ構成**
+```
+.
+├── mbed-os
+|   └── .
+├── .mbed
+├── main.cpp
+├── mbed-os.lib
+├── RotaryEncoder.cpp
+└── RotaryEncoder.h
+```
+
+### step3
+**ディレクトリ構成**
+```
+.
+├── mbed-os
+|   └── .
+├── .mbed
+├── main.cpp
+├── mbed-os.lib
+├── RotaryEncoder.cpp
+└── RotaryEncoder.h
 ```
