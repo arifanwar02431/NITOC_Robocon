@@ -47,7 +47,7 @@
 ```
 
 ### 配線
-
+<img src="https://user-images.githubusercontent.com/74349349/232285352-abf06d88-f9e2-421b-945e-81434908364a.png" width="500">
 
 ### プログラム
 [step2.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
