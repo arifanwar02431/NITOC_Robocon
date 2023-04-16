@@ -19,7 +19,7 @@
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
 
 ## その他
-stepごとにディレクトリは分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
+ディレクトリはstepごとに分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
 
 ## 解答
 解答は[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/ANS.md)
