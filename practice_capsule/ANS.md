@@ -47,7 +47,7 @@
 ```
 
 ### 配線
-<img src="https://user-images.githubusercontent.com/74349349/232285352-abf06d88-f9e2-421b-945e-81434908364a.png" width="500">
+<img src="https://user-images.githubusercontent.com/74349349/232285733-ec3e0aea-d503-432c-b579-74c3e05324be.png" width="500">
 
 ### プログラム
 [step2.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
@@ -77,7 +77,7 @@
 ```
 
 ### 配線
-
+<img src="https://user-images.githubusercontent.com/74349349/232286444-020eb4fa-1cd4-49c8-9ccd-8cc93540908e.png" width="500">
 
 ### プログラム
 [step3.cpp](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
