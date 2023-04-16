@@ -16,10 +16,10 @@
 スイッチを1回押すとボールが1個出るまで動くようにする.
 
 ## 作成者
-Wassy | Ryoga Washizawa[github.com/wassy310]
+[Wassy | Ryoga Washizawa](https://github.com/wassy310)
 
 ## その他
 stepごとにディレクトリは分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
 
 ## 解答
-解答は[こちら](github.com/wassy310/practice_capsule)
+解答は[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/ANS.md)
