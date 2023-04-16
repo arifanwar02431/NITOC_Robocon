@@ -13,7 +13,7 @@
 
 ### step3
 **SW & Encoder制御応用**  
-スイッチを1回押すとボールが1個出るまで動くようにする.
+スイッチを1回押すとボールが1個出るまで動き続けるようにする.
 
 ## ヒント
 ヒントは[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/TIPS.md)
