@@ -26,3 +26,6 @@
 
 ## その他
 ディレクトリはstepごとに分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
+
+## 使用
+- 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
