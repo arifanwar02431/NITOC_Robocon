@@ -24,7 +24,7 @@
 ├── RotaryEncoder.cpp
 └── RotaryEncoder.h
 ```
-プログラムは[step2](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
+プログラムは[step2](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
 
 ### step3
@@ -39,5 +39,5 @@
 ├── RotaryEncoder.cpp
 └── RotaryEncoder.h
 ```
-プログラムは[step3](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)
+プログラムは[step3](https://github.com/wassy310/NITOC_Robocon/tree/master/practice_capsule)  
 `RotaryEncoder.cpp`, `RotaryEncoder.h`も忘れずに
