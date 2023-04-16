@@ -9,6 +9,7 @@
 - スイッチの状態(押されているか否か) -> `**.read()`(`**`は各自がスイッチピンで定義した変数名)
 - スイッチの配線ヒントは下図  
 <img src="https://user-images.githubusercontent.com/74349349/232308521-3a6d986f-611b-420f-9e4b-115a11697842.png" width="400">
+
 - エンコーダ制御では`RotaryEncoder.cpp`と`RotaryEncoder.h`を`main.cpp`と同じ階層に入れてあげましょう
 
 ---
