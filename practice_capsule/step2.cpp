@@ -31,8 +31,8 @@ void init_sw() {
 void roll() {
     p = 0.3;
 
-    double target_angle = 120.0;        // 目標角度
-    double current_angle = 0.0;
+    double target_angle = 120.0;        // 目標回転角度
+    double current_angle = 0.0;         // 現在の角度(初期値0.0)
 
     while(true) {
         current_angle = re.Get_Count() * 0.17578125;

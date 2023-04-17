@@ -31,7 +31,8 @@ void init_sw() {        // スイッチの初期設定
     ThisThread::sleep_for(100);
 }
 
-void roll() {       // テーブルを回転させる
+// テーブルを回転させるための動作をまとめた関数
+void roll() {
     p = 0.3;
 
     double target_angle = 105.0;        // 目標回転角度
