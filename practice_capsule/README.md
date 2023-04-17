@@ -29,7 +29,7 @@
 [Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
 
 ## 使用 | Used
-- 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
+- 回路図作成 - [Lucid](https://lucid.app)
 
 ## **作成者 | Author**
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
