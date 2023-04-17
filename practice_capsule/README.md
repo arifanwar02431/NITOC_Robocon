@@ -25,14 +25,14 @@
 ## **解答 | Answer**
 解答は[こちら](https://github.com/wassy310/NITOC_Robocon/blob/master/practice_capsule/ANS.md)
 
-## **作成者 | Author**
-[Wassy | Ryoga Washizawa](https://github.com/wassy310)
-
 ## **ライセンス | License**
 [Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
 
 ## 使用 | Used
 - 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
+
+## **作成者 | Author**
+[Wassy | Ryoga Washizawa](https://github.com/wassy310)
 
 ## **連絡 | Contact**
 バグや修正依頼は以下の連絡先まで
