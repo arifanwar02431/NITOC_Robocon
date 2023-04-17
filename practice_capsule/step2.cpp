@@ -1,5 +1,5 @@
 #include "mbed.h"
-#include "RotaryEncoder.h"
+#include "RotaryEncoder.h"      // エンコーダ制御ではこれを使う
 #include <DigitalInOut.h>
 
 DigitalOut dig(D2);
@@ -10,21 +10,24 @@ RotaryEncoder re(D7, D8);        // ロリコンピン(A, B)定義
 
 DigitalIn sw(A5);       // スイッチピン定義
 
+// PWM信号の初期化
 void init_pwm() {
     p.period_us(100);
     p = 0;
     ThisThread::sleep_for(100);
 }
 
+// スイッチの初期設定
 void init_sw() {
     sw.mode(PullUp);
     ThisThread::sleep_for(100);
 }
 
+// テーブルを回転させるための動作をまとめた関数
 void roll() {
     p = 0.3;
 
-    double target_angle = 120.0;
+    double target_angle = 120.0;        // 目標角度
     double current_angle = 0.0;
 
     while(true) {
@@ -57,7 +60,7 @@ int main() {
         } else {
             p = 0;
         }
-        re.Reset();
+        re.Reset();     // ロリコンリセット
     }
     return 0;
 }
