@@ -10,6 +10,10 @@ RotaryEncoder re(D7, D8);        // ロリコンピン(A, B)定義
 
 DigitalIn sw(A5);       // スイッチピン定義
 
+void init_pwm();
+void init_sw();
+void roll();
+
 // PWM信号の初期化
 void init_pwm() {
     p.period_us(100);
