@@ -59,7 +59,7 @@ void roll() {       // テーブルを回転させる
 void time() {
     int i;
     for(i=1; i<=50; i++) {
-        wait(0.1);
+        ThisThread::sleep_for(100);
         if(sw2.read() == 0) {
             break;
         }
