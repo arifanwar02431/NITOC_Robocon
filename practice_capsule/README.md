@@ -5,6 +5,8 @@
 あなたの基礎制御技術を完璧にします(すべてのステップを終えたら基礎制御卒業です)  
 - [動作例](https://twitter.com/waaaa5267/status/1647105068452429824?s=20)(step2の動作例です)
 
+ディレクトリはstepごとに分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
+
 ### step1
 **PWM制御**  
 モータをボールが詰まらない速度で回転させる.
@@ -26,8 +28,18 @@
 ## 作成者
 [Wassy | Ryoga Washizawa](https://github.com/wassy310)
 
-## その他
-ディレクトリはstepごとに分けて, プログラムファイル(step*.cpp)は`main.cpp`に記述することをオススメします.
+## ライセンス
+[Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
+
+## 連絡
+バグや修正依頼は以下の連絡先まで
+- Twitter
+  - [waaaa5267](https://twitter.com/waaaa5267)
+- Discord
+  - アカウント: Wassy#3241
+  - サーバー: [Wa!](https://discord.gg/uAUrUnwAh9)
+- メール
+  - 部内で共有した用紙に書いてあります
 
 ## 使用
 - 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
