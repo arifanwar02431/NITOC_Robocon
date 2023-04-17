@@ -31,6 +31,9 @@
 ## **ライセンス | License**
 [Apache-2.0 license](https://github.com/apache/.github/blob/main/LICENSE)
 
+## 使用 | Used
+- 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
+
 ## **連絡 | Contact**
 バグや修正依頼は以下の連絡先まで
 - メール
@@ -40,6 +43,3 @@
 - Discord
   - アカウント: Wassy#3241
   - サーバー: [Wa!](https://discord.gg/uAUrUnwAh9)
-
-## 使用 | Used
-- 回路図作成 - [Lucid](https://lucid.app/documents#/documents?folder_id=home)
